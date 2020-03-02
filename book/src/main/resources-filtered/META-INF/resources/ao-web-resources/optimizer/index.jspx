@@ -35,6 +35,7 @@ along with ao-web-resources-optimizer.  If not, see <http://www.gnu.org/licenses
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2020-03-01T11:20:21-0600"
+		dateModified="2020-03-02T02:22:16-0600"
 	>
 		<core:child page="changelog.jspx" />
 		<core:child page="apidocs/index.jspx" />
@@ -62,5 +63,58 @@ along with ao-web-resources-optimizer.  If not, see <http://www.gnu.org/licenses
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:nav>
+		<section:section label="TODO">
+			<ul>
+				<li>Support combining automatically (but not inlined).
+					<pre>Rewriting all URL() to be relative to the web root /contextPath/…</pre>
+				</li>
+				<li>Also support minification
+<pre>Independent of inline / combined / single
+https://yui.github.io/yuicompressor/
+https://github.com/simschla/fast-and-simple-minify
+https://www.baeldung.com/maven-minification-of-js-and-css-assets
+	This also has an ebook for building REST AIP in Spring - neat!
+https://stackoverflow.com/questions/1379856/how-do-you-automate-javascript-minification-for-your-java-web-applications
+	Lots of minifier options listed here
+	https://github.com/mwanji/humpty
+		Looks like a one-release dead project.
+	https://github.com/wro4j/wro4j (this looks very promising!)
+		https://blog.jamesdbloom.com/JSAndCSSMinificationWithWRO4J.html
+			This has an example of dynamically adding
+			Also has the scripts added dynamically at the end by window.online(setTimeout(...))
+		LastModifiedServlet-style URL ?lastModfied=... could be our own filter/processor inlined
+			CONTEXT-ONLY to not get the *.css resources from LastModifiedServlet?
+			How to get the effective lastModified of the wro4j-generated *.css and *.js?
+		Would we create own own WroModel, and add to it from @WebListener on each project?
+		Would this be in a "ao-wro4j" project, that also automatically configures all the wro4j stuff.
+		The goal is an application can just include "ao-styles", "semanticcms-*-style" and it's all automatic.
+		Should we have a group "static" for things combined during maven plugin?
+		Should we have a group "dynamic" for things added on-the-fly?
+		Dynamic wro.xml with all registered projects?
+			https://wro4j.readthedocs.io/en/stable/WroModelInterpolation/
+			Each project gets its own group?
+			group-ref for dependencies?
+		Runtime: https://wro4j.readthedocs.io/en/stable/WroModelRuntime/
+		Add our own annotated subclass of WroServletContextListener?
+			Or have ao-wro4j declare it in a web-fragment.xml
+			https://wro4j.readthedocs.io/en/stable/WroServletContextListener/
+				WroServletContextListener.getListenerName("ao-wro4j")
+		Do we somehow create groups dynamically based on what applies to the current request?
+			Views, for example, can affect what is applied to the page.
+		We'd need a "-print" group, to be used after the non-print
+		So the grouping would have to consider ordering and -print/conditional comments.
+			Could find optimal grouping while still maintaining ordering
+				Starting by assuming:
+					1) non-print, no conditional comments, in path order
+					2) non-print, conditional comments, in path order
+					3) print, no conditional comments, in path order
+					4) print, conditional comments, in path order
+				This definition will give a good starting point, so it won't be necessary to specify ordering for every print/conditional comment override?
+				Then perform topological sort based on ordering dependencies
+					This topological sort should be stable and maintain the original ordering as much as possible
+			Deterministic ordering, combined with some sort of hash to generate group name dynamically</pre>
+				</li>
+			</ul>
+		</section:section>
 	</core:page>
 </jsp:root>
