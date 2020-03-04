@@ -88,8 +88,6 @@ along with ao-web-resources-optimizer.  If not, see <http://www.gnu.org/licenses
 			</dependency>
 			<!-- Direct -->
 			<!-- TODO -->
-			<!-- Transitive -->
-			<!-- TODO -->
 		</dependencies>
 	</dependencyManagement>
 
