@@ -30,7 +30,7 @@ Automatic and dynamic web resource optimization via [WRO4J](https://github.com/w
 * [Project Home](https://aoindustries.com/ao-web-resources/optimizer/)
 * [Changelog](https://aoindustries.com/ao-web-resources/optimizer/changelog)
 * [API Docs](https://aoindustries.com/ao-web-resources/optimizer/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22ao-web-resources-optimizer%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/ao-web-resources-optimizer)
 * [GitHub](https://github.com/aoindustries/ao-web-resources-optimizer)
 
 ## Contact Us
