@@ -25,22 +25,22 @@ along with ao-web-resources-optimizer.  If not, see <http://www.gnu.org/licenses
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.aoindustries</groupId><artifactId>ao-oss-parent</artifactId><version>1.16.0-SNAPSHOT</version>
-		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
+		<groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.16.0-SNAPSHOT</version>
+		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-optimizer</artifactId><version>0.4.0-SNAPSHOT</version>
+	<groupId>com.aoapps</groupId><artifactId>ao-web-resources-optimizer</artifactId><version>0.4.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
-		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://aoindustries.com/ao-web-resources/">AO Web Resources</a>
-/ <a target="${javadoc.target}" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
-		<shortTitle>Optimizer</shortTitle>
+		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.aoapps.com/">AO OSS</a>
+/ <a target="${javadoc.target}" href="https://oss.aoapps.com/web-resources/">Web Resources</a>
+/ <a target="${javadoc.target}" href="${project.url}">Optimizer</a>]]></javadoc.breadcrumbs>
 		<description.html><![CDATA[Automatic and dynamic web resource optimization via <a target="${javadoc.target}" href="http://wro4j.github.io/wro4j/">WRO4J</a>.]]></description.html>
 	</properties>
 
 	<name>AO Web Resources Optimizer</name>
-	<url>https://aoindustries.com/ao-web-resources/optimizer/</url>
+	<url>https://oss.aoapps.com/web-resources/optimizer/</url>
 	<description>Automatic and dynamic web resource optimization via WRO4J.</description>
 	<inceptionYear>2020</inceptionYear>
 
