@@ -10,6 +10,12 @@
 
 [![Build](https://github.com/aoindustries/ao-web-resources-optimizer/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/ao-web-resources-optimizer/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-web-resources-optimizer/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-web-resources-optimizer)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps%3Aao-web-resources-optimizer)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-web-resources-optimizer&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-web-resources-optimizer&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-web-resources-optimizer&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-web-resources-optimizer&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Aao-web-resources-optimizer&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Aao-web-resources-optimizer&metric=Coverage)
 
 Automatic and dynamic web resource optimization via [WRO4J](https://github.com/wro4j/wro4j).
 
