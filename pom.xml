@@ -109,4 +109,16 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
 			</snapshots>
 		</repository>
 	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-checkstyle-plugin</artifactId>
+				<configuration>
+					<!-- TODO: Clean-up Checkstyle -->
+					<failOnViolation>false</failOnViolation>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
