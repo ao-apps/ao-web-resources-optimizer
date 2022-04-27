@@ -22,4 +22,4 @@
  */
 module com.aoapps.web.resources.optimizer {
   exports com.aoapps.web.resources.optimizer;
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
