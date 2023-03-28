@@ -39,10 +39,6 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
 / <a target="${javadoc.target}" href="https://oss.aoapps.com/web-resources/">Web Resources</a>
 / <a target="${javadoc.target}" href="${project.url}">Optimizer</a>]]></javadoc.breadcrumbs>
     <description.html><![CDATA[Automatic and dynamic web resource optimization via <a target="${javadoc.target}" href="http://wro4j.github.io/wro4j/">WRO4J</a>.]]></description.html>
-    <!-- SonarQube -->
-    <sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-    <sonar.organization>ao-apps</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <name>AO Web Resources Optimizer</name>
