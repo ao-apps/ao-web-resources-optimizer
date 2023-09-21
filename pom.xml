@@ -39,7 +39,7 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
     <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.aoapps.com/">AO OSS</a>
 / <a target="${javadoc.target}" href="https://oss.aoapps.com/web-resources/">Web Resources</a>
 / <a target="${javadoc.target}" href="${project.url}">Optimizer</a>]]></javadoc.breadcrumbs>
-    
+
     <description.html><![CDATA[Automatic and dynamic web resource optimization via <a target="${javadoc.target}" href="http://wro4j.github.io/wro4j/">WRO4J</a>.]]></description.html>
   </properties>
 
