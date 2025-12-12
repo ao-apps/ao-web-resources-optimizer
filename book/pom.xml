@@ -43,6 +43,8 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
     <documented.description>Automatic and dynamic web resource optimization via WRO4J.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
+    <!-- SonarQube -->
+    <sonar.projectKey>${project.groupId}:${project.artifactId}:javaee</sonar.projectKey>
   </properties>
 
   <name>AO Web Resources Optimizer Book</name>
