@@ -85,7 +85,7 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
 
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://jenkins.aoindustries.com/job/ao/job/oss/job/web-resources/job/optimizer/</url>
+    <url>https://jenkins.aoindustries.com/job/ao/job/oss/job/web-resources/job/optimizer-javaee/</url>
   </ciManagement>
   <!-- Only one allowed in POM:
   <ciManagement>
