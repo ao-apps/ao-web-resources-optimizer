@@ -29,12 +29,12 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
     <relativePath>../../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>ao-web-resources-optimizer-book</artifactId><version>0.7.0-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>ao-web-resources-optimizer-book</artifactId><version>0.7.0</version>
   <packaging>jar</packaging>
 
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
-    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2026-02-06T02:53:44Z</project.build.outputTimestamp>
     <module.name>com.aoapps.web.resources.optimizer.book</module.name>
     <subproject.subpath>book/</subproject.subpath>
     <!-- Java 17 -->
@@ -87,7 +87,7 @@ along with ao-web-resources-optimizer.  If not, see <https://www.gnu.org/license
     <connection>scm:git:git://github.com/ao-apps/ao-web-resources-optimizer.git</connection>
     <developerConnection>scm:git:git@github.com:ao-apps/ao-web-resources-optimizer.git</developerConnection>
     <url>https://github.com/ao-apps/ao-web-resources-optimizer</url>
-    <tag>HEAD</tag>
+    <tag>ao-web-resources-optimizer-book-0.7.0</tag>
   </scm>
 
   <issueManagement>
